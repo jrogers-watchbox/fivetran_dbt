@@ -1,0 +1,11 @@
+jobs:
+  - name: connection-integrated-schedule
+    schedule:
+      type: integrated
+      integrations:
+        - abject_normative
+        - prodigy_vaso
+    steps:
+      - name: run models
+        command: dbt run --models ...
+
