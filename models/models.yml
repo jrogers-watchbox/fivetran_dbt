@@ -1,7 +1,5 @@
 version: 1
 
-
 models:
-  - name: mysql
-    description: > Just trying to test to see if I can get something to run
-    
+  - name: fivetran_dbt
+    description:  Please work!  
