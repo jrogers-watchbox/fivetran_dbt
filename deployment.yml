@@ -6,4 +6,7 @@ jobs:
         - abject_normative
         - prodigy_vaso
 
+steps:
+  - name: "Call my stored procedure macro"
+    command: "dbt run-operation run_proc" # This is the key pa
 
