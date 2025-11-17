@@ -6,7 +6,7 @@
  {% set run_sp_operation %}
 
  
- call {{dwhprod}}.{{dw}}. proc_dbt_test();
+ call dwhprod.dw.proc_dbt_test();
 
  {% endset %}
 
