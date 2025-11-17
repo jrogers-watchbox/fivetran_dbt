@@ -1,4 +1,3 @@
-    -- macros/run_proc.sql
     {% macro run_proc() %}
-      {% do run_query("call dw.proc_dbt_test();") %}
+      {% do run_query("call proc_dbt_test();") %}
     {% endmacro %}
