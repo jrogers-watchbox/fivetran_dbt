@@ -1,5 +1,5 @@
 version: 1
 
 models:
-  - name: fivetran_dbt
+  - name: mysql
     description:  Please work!  
